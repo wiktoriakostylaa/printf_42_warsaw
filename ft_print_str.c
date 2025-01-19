@@ -6,7 +6,7 @@
 /*   By: wkostyla <wkostyla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 12:24:27 by wkostyla          #+#    #+#             */
-/*   Updated: 2025/01/15 12:31:26 by wkostyla         ###   ########.fr       */
+/*   Updated: 2025/01/19 13:02:24 by wkostyla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,7 @@ int	ft_print_str(char *s)
 
 	i = 0;
 	if (!s)
-	{
-		ft_putstr_fd("null", 1);
-		return (4);
-	}
+		s = "(null)";
 	ft_putstr_fd(s, 1);
 	while (s[i] != '\0')
 		i++;

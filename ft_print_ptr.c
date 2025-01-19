@@ -6,8 +6,18 @@
 /*   By: wkostyla <wkostyla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 13:37:46 by wkostyla          #+#    #+#             */
-/*   Updated: 2025/01/15 13:38:05 by wkostyla         ###   ########.fr       */
+/*   Updated: 2025/01/19 13:17:49 by wkostyla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+
+int	ft_print_ptr(void *ptr)
+{
+	int	i;
+
+	i = 0;
+	i += ft_print_str("0x");
+	i += ft_print_hex((unsigned long)ptr, 1);
+	return (i);
+}
