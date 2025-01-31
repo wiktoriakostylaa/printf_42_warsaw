@@ -6,7 +6,7 @@
 /*   By: wkostyla <wkostyla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 11:43:30 by wkostyla          #+#    #+#             */
-/*   Updated: 2025/01/19 13:16:15 by wkostyla         ###   ########.fr       */
+/*   Updated: 2025/01/31 13:15:01 by wkostyla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int	ft_print_char(char c);
 int	ft_print_str(char *s);
 int	ft_print_int(int nb);
 int	ft_print_undec(unsigned int nb);
-int	ft_print_hex(unsigned int value, int up_low);
+int	ft_print_hex(unsigned long long value, int up_low);
 int	ft_print_ptr(void *ptr);
 
 #endif

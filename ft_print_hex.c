@@ -6,7 +6,7 @@
 /*   By: wkostyla <wkostyla@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 13:37:13 by wkostyla          #+#    #+#             */
-/*   Updated: 2025/01/19 13:16:24 by wkostyla         ###   ########.fr       */
+/*   Updated: 2025/01/31 13:14:53 by wkostyla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static void	ft_print(char *hex, int i)
 	}
 }
 
-int	ft_print_hex(unsigned int value, int up_low)
+int	ft_print_hex(unsigned long long value, int up_low)
 {
 	char	hex[16];
 	char	*base;
